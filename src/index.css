@@ -1,0 +1,89 @@
+/*body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #E5E5E5 !important;
+}*/
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+main {
+ 	flex: 1 0 auto !important;
+	min-height: 100vh;
+}
+
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+	background-color: #E5E5E5 !important;
+}
+
+img{
+	width: 50px;
+}
+
+nav{
+	background-color: #E5E5E5;
+	box-shadow: 0px 0px rgba(0, 0, 0, 0) !important;
+}
+
+.container a{
+	color: black;
+}
+
+.container ul{
+	margin-top: 5px;
+}
+
+.nav-wrapper{
+
+}
+
+.left{
+	margin-left: 80px;
+}
+
+.Board{
+	margin-top: 200px;
+}
+
+.boardBtn{
+	display: inline-flex;
+	width: 200px;
+}
+
+.boardBtn div{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.boardBtn div button{
+	width: 200px;
+}
+
+.apiDespSec{
+	margin-top:  200px;
+	overflow: hidden;
+}
+
+.apiDespSec div p{
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.custDesc{
+	margin-top: 60px;
+}
+
+.boardBtn h5{
+	margin-left: 60px;
+}
+
+.readyBtn{
+	margin-top: 25px;
+	margin-left: 45px;
+}
